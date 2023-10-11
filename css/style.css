@@ -15,3 +15,21 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+#herramientas {
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#herramientas img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+#herramientas img:hover {
+    width: 120px;
+    height: 120px;
+    margin:0px;
