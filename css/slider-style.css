@@ -52,9 +52,9 @@
 }
 
 .slogan {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: relative;
+    width: 0;
+    height: 0;
     transform: translate(-50%, -50%);
     font-size: 2rem;
     color: var(--white); 
@@ -64,3 +64,15 @@
     background-color: var(--blue);
 }
 
+
+.slogan h1 {
+    position: absolute;
+    width: 100vw;
+    font-size: 1.5em;
+    opacity: 0;
+}
+
+.slogan.visible h1{
+    opacity: 100%;
+    transition: opacity 2s;
+}
