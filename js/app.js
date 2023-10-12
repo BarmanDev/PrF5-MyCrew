@@ -37,15 +37,12 @@ function toggleSlogan() {
     logo.addEventListener('click', function (event) {
         event.preventDefault(); // Evita que el enlace del logo redirija a otra página
 
-        if (slogan.style.display === 'none') {
-            slogan.style.display = 'block';
-        } else {
-            slogan.style.display = 'none';
-        }
+        slogan.classList.add('visible');
     });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
     let container = document.querySelector('.container-slider');
     slider(container);
+    toggleSlogan();
 });
