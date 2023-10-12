@@ -1,0 +1,70 @@
+.people {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+}
+
+.left-content, .right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.left-content h2, .right-content h2, .left-content p, .right-content p {
+    margin: 0;
+}
+
+.people-left {
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.people-right {
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.people-left img, .people-right img {
+    border: 1px solid;
+    border-radius: 100%;
+    width: 40%;
+    cursor: pointer;
+}
+
+.emoticon img{
+    width: 3rem;
+    height: 3rem;
+    display: none;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.info-text{
+    display: none;
+}
+
+
+.borja-image:hover + .emoticon img,
+.borja-image:hover + .emoticon p {
+    display: block;
+}
+
+.andrea-image:hover + .emoticon img,
+.andrea-image:hover + .emoticon p {
+    display: block;
+}
+
+.people h2, p{
+    font-size: 2rem;
+    color: var(--white);
+    margin: 0.5rem;
+}
+

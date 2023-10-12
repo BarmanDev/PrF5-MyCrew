@@ -45,9 +45,6 @@ function toggleSlogan() {
     });
 }
 
-
-
-
 document.addEventListener("DOMContentLoaded", () => {
     let container = document.querySelector('.container-slider');
     slider(container);
