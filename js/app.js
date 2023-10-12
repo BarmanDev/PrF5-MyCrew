@@ -41,6 +41,10 @@ function toggleSlogan() {
     });
 }
 
+function changeToolsBackground(color) {
+    document.getElementById("tools").style.backgroundColor = color;
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     let container = document.querySelector('.container-slider');
     slider(container);
