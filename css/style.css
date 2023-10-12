@@ -1,5 +1,6 @@
 @import url(./navbar-style.css);
 @import url(./slider-style.css);
+@import url(./login-style.css);
 
 :root{
     --black: #222831;
