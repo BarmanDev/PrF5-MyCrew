@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="navbar-container">
+            <div class="logo">
+                <a href="index.html"><img src="./assets/img/logoDesign.png" alt="logo empresa"></a>
+                <h2>ANDREA / BORJA </h2>
+            </div>
+            <div class="menu">
+                <a class="login" href="login.html">LOGIN</a>
+            </div>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <span class="bigmac">&#9776;</span>
+        </div>
+    </nav>
+    <section id="login">
+        <h1>Bienvenido usuario</h1>
+        <form>
+            <input id="user" placeholder="usuario">
+            <input id="password"placeholder="contraseña" type="password">
+            <input type="submit" value="Login">
+        </form>
+    </section>
+</body>
+<script src="./js/app.js"></script>
+</html>
