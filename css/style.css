@@ -1,0 +1,14 @@
+:root{
+    --black: #222831;
+    --grey:  #393E46;
+    --blue:  #00ADB5;
+    --white: #EEEEEE;
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
