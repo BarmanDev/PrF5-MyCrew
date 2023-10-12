@@ -2,6 +2,7 @@
 @import url(./slider-style.css);
 @import url(./about-style.css);
 @import url(./login-style.css);
+@import url(./tools-style.css);
 
 :root{
     --black: #222831;

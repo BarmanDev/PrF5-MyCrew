@@ -1,0 +1,18 @@
+.tools{
+    margin: 8rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools img{
+    width: 18rem;
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+.all-tools h3{
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem;
+}
