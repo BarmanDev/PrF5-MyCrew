@@ -4,8 +4,6 @@
     align-items: center;
     background-color: var(--blue);
     padding: 8rem 0;
-
-
 }
 
 .left-content, .right-content {
@@ -19,30 +17,44 @@
     margin: 0;
 }
 
-.people-left {
+.people-left, .people-right {
     margin: 4rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative; 
 }
 
-.people-right {
-    margin: 4rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.people-left img, .people-right img {
+.borja-image {
     border: 1px solid;
     border-radius: 100%;
     width: 40%;
     cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background-image 0.3s;
 }
 
-.emoticon img{
+.andrea-image{
+    border: 1px solid;
+    border-radius: 100%;
+    width: 40%;
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background-image 0.3s;
+}
+
+.borja-image:hover {
+    background-image: url('../assets/img/background-img.jpg'); 
+}
+
+.andrea-image:hover {
+    background-image: url('../assets/img/background-img.jpg');
+}
+
+.emoticon img {
     width: 3rem;
     height: 3rem;
     display: none;
@@ -50,10 +62,9 @@
     margin-left: 2rem;
 }
 
-.info-text{
+.info-text {
     display: none;
 }
-
 
 .borja-image:hover + .emoticon img,
 .borja-image:hover + .emoticon p {
@@ -65,9 +76,8 @@
     display: block;
 }
 
-.people h2, p{
+.people h2, p {
     font-size: 2rem;
     color: var(--white);
     margin: 0.5rem;
 }
-
