@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
+<body>
     <nav>
         <div class="navbar-container">
-            <div id="logo" class="logo">
+            <div class="logo">
                 <a href="index.html"><img src="./assets/img/logoDesign.png" alt="logo empresa"></a>
-                <h2>ANDREA / BORJA </h2>
             </div>
             <div class="menu">
                 <a class="login" href="login.html">LOGIN</a>
@@ -23,86 +23,22 @@
             <span class="bigmac">&#9776;</span>
         </div>
     </nav>
-    <div class="slogan"><h1>TU ÉXITO NUESTRAS EMOCIONES</h1></div>
-    <div class="container-slider">
-        <div class="btn btn-back">
-            &#60
+    <section id="login">
+        <h1>Bienvenido usuario</h1>
+        <form action="./welcome.html">
+            <input id="user" placeholder="usuario">
+            <input id="password"placeholder="contraseña" type="password">
+            <a href="./welcome.html"><input type="submit" value="Login"></a>
+        </form>
+    </section>
+    <footer>
+        <div class="container-footer">
+            <div class="social-media">
+            </div>
+            <img src="./assets/img/logoDesign.png" alt="">
+            <p>&copy; Team Emotion 2023 - Todos los derechos reservados</p>
         </div>
-        <div class="btn btn-forward">
-            &#62
-        </div>
-        <img class="carrusel fade-in" src="./assets/img/1.jpg" alt="work-team">
-    </div>
-        <section>
-            <div class="people">
-                <div class="people-left">
-                    <div class="left-content">
-                        <h2>BORJA</h2>
-                        <p>SCRUM master</p>
-                    </div>
-                    <img class="borja-image" src="./assets/img/borja.png" alt="avatar-Borja">
-                    <div class="emoticon">
-                        <img src="./assets/img/triste.png" alt="gafitas de sol">
-                        <p class="info-text">Estoy agobiado</p>
-                    </div>
-                </div>
-        
-                <div class="people-right">
-                    <div class="right-content">
-                        <h2>ANDREA</h2>
-                        <p>product owner</p>
-                    </div>
-                    <img class="andrea-image" src="./assets/img/andrea.png" alt="avatar-Andrea">
-                    <div class="emoticon">
-                        <img src="./assets/img/gafas-de-sol.png" alt="gafitas de sol">
-                        <p class="info-text">Soy la jefa</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div id="tools" class="tools">
-                <div class="all-tools">
-                    <h3>HTML</h3>
-                   <a href="https://developer.mozilla.org/es/docs/Web/HTML"  target="_blank" onmouseover="changeToolsBackground('#f63c0544')"><img src="./assets/img/html.png" alt=""> </a> 
-                </div>
-                <div class="all-tools">
-                    <h3>CSS</h3>
-                   <a href="https://developer.mozilla.org/es/docs/Web/CSS"  target="_blank" onmouseover="changeToolsBackground('#1f4ceb44')"><img src="./assets/img/css-3.png" alt=""></a> 
-                </div>
-                <div class="all-tools">
-                    <h3>JAVASCRIPT</h3>
-                    <a href="https://developer.mozilla.org/es/docs/Web/JavaScript"  target="_blank" onmouseover="changeToolsBackground('#f09d0044')"><img src="./assets/img/js.png" alt=""></a>
-                </div>
-                <div class="all-tools">
-                    <h3>JIRA</h3>
-                    <a href="https://www.atlassian.com/es/software/jira"  target="_blank" onmouseover="changeToolsBackground('#0063e644')"><img src="./assets/img/jira.png" alt=""></a>
-                </div>
-                <div class="all-tools">
-                    <h3>VS CODE</h3>
-                    <a href="https://code.visualstudio.com/"  target="_blank" onmouseover="changeToolsBackground('#00abf944')"><img src="./assets/img/vscode.png" alt=""></a>
-                </div>
-                <div class="all-tools">
-                    <h3>FIGMA</h3>
-                    <a href="https://www.figma.com/"  target="_blank" onmouseover="changeToolsBackground('#00d37944')"><img src="./assets/img/figma.png" alt=""></a>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <div class="container-footer">
-                <div class="social-media">
-                    <img src="./assets/img/instagram-01.png" alt="instagram">
-                    <img src="./assets/img/youtube-01.png" alt="youtube">
-                    <img src="./assets/img/facebook-01.png" alt="facebook">
-                    <img src="./assets/img/linkedin-01_720.png" alt="linkedin">
-                </div>
-                <img src="./assets/img/logoDesign.png" alt="">
-                <p>&copy; Team Emotion 2023 - Todos los derechos reservados</p>
-
-            </div>
-        </footer>
-        
+    </footer>
 </body>
-
 <script src="./js/app.js"></script>
 </html>
