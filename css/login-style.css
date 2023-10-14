@@ -12,7 +12,7 @@ section#login form {
 section#login h1 {
     margin: auto;
     width: fit-content;
-    margin-top: 100px;
+    margin-top: 306px;
     font-family: 'Roboto';
     font-weight: 100;
     font-size: 2.5em;
@@ -36,6 +36,7 @@ section#login input[type="submit"] {
     background-color: var(--blue);
     padding: 10px;
     color: white;
+    cursor: pointer;
 }
 
 section#login form {
