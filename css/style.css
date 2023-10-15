@@ -4,6 +4,7 @@
 @import url(./login-style.css);
 @import url(./tools-style.css);
 @import url(./footer-style.css);
+@import url(./herramientas.css);
 
 :root{
     --black: #222831;
