@@ -1,0 +1,44 @@
+
+section#login {
+    width: 100%;
+    height: 500px;
+}
+
+section#login form {
+    width: 30%;
+    margin: auto;
+}
+
+section#login h1 {
+    margin: auto;
+    width: fit-content;
+    margin-top: 306px;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 2.5em;
+}
+
+section#login input {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border-top: transparent;
+    border-left: transparent;
+    border-radius: 0 0 10px 0;
+}
+
+section#login input[type="submit"] {
+    border: initial;
+    border-radius: 10px;
+    margin: initial;
+    margin-top: 40px;
+    float: right;
+    background-color: var(--blue);
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+section#login form {
+    margin-top: 20px;
+} 

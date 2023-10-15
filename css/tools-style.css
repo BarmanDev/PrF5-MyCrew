@@ -1,0 +1,23 @@
+.tools{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools img{
+    width: 30%;
+    cursor: pointer;
+    margin: 20%;
+}
+
+.all-tools h3{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2rem;
+    transition: transform 0.8s; 
+
+}
+
+.all-tools img:hover{
+    transform: scale(1.2);
+}

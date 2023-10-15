@@ -1,0 +1,21 @@
+footer {
+    padding-top: 2rem;
+    background-color: var(--grey);
+    text-align: center;
+}
+
+footer img {
+    width: 20rem;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media img {
+    width: 3rem; 
+    margin: 0 1.4rem;
+}
+
