@@ -42,7 +42,7 @@ function toggleSlogan() {
 }
 
 function changeToolsBackground(color) {
-    document.getElementById("tools").style.backgroundColor = color;
+    document.getElementById("herramientas").style.backgroundColor = color;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
